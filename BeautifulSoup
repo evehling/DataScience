@@ -1,11 +1,8 @@
 """
 Elisabeth Vehling
-A5
 vehling@usc.edu
-
 Description: I attempted to write a program that would ask the user for how many units they wanted to search for
-and return the information for the courses that matched. I managed to do this and add the information to a list,
-but I couldn't figure out how to parse each row's information in order.
+and return the information for the courses that matched. Sorry about the ugly formatting. :-(
 
 """
 
@@ -32,7 +29,7 @@ for course in courseTag:
     courseTitle = course.find("a", class_="courselink")
     if userInput in courseTitle.text:
         print(courseTitle.text)
-#Created a new list to append my information to
+#Created a new list to append information to
         courseList= []
         tableRow = course.find_all("tr")
         tableHeader=course.find_all("th")
