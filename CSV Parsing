@@ -1,9 +1,6 @@
 """
 Elisabeth Vehling
-A8
-ITP 115, Fall 2018
-vehling@usc.edu
-
+vehling@usc.edd
 Description: This program reads in a csv file of vehicle data from a year of the users choice, then searches through
 the file for the minimum and maximum highway MPG. Then writes a list of the matching cars to a new file that the user specifies.
 
